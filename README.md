@@ -1,2 +1,6 @@
 # UK-ENERGY-Project
-Data science project
+This repository contains the project implementation and analysis for a comprehensive study conducted by UK Power Networks, commissioned by the UK Government, to understand residential energy consumption in large cities, with a particular focus on London. The project aimed to gather data on energy production and consumption through smart meters installed in selected households in London.
+
+The primary objective of this project was to gain insights into the dynamics and patterns of energy consumption in residential areas of London. By analyzing the collected data, the project aimed to identify the characteristics of current energy consumption in households, providing valuable information for the development of strategies and policies to facilitate the transition to clean energy sources.
+
+The repository includes the codebase, data collection methodologies, data analysis techniques, and research findings. This comprehensive collection of resources serves as a valuable reference for researchers, policymakers, and other stakeholders interested in understanding and addressing residential energy consumption in urban areas, with a specific focus on London. The project's ultimate goal is to contribute to global efforts in achieving sustainable and environmentally friendly energy systems.
