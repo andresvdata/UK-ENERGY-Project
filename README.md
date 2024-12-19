@@ -1,4 +1,6 @@
 # UK-ENERGY-Project
+![Dashboard](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/Dashboard%20Explanation.gif?raw=true)
+
 This repository contains the project implementation and analysis for a comprehensive study conducted by UK Power Networks, commissioned by the UK Government, to understand residential energy consumption in large cities, with a particular focus on London. The project aimed to gather data on energy production and consumption through smart meters installed in selected households in London.
 
 The primary objective of this project was to gain insights into the dynamics and patterns of energy consumption in residential areas of London. By analyzing the collected data, the project aimed to identify the characteristics of current energy consumption in households, providing valuable information for the development of strategies and policies to facilitate the transition to clean energy sources.
@@ -101,7 +103,7 @@ The final report presented in the project was the ![following link](final Report
 ## [Dashboard](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/final%20Reports/Dashboard%20User%20Guide.pdf)
 The final presentation involved the creation of a Dashboard using Dash
 ![image](https://github.com/user-attachments/assets/ed6967cb-71ac-4475-8b63-7291a7984ef1)
-![Dashboard](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/Dashboard%20Explanation.gif?raw=true)
+
 
 ### Features
 * Interactive Visualizations: Users can interact with various charts and graphs to gain insights into energy data.
