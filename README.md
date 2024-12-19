@@ -36,7 +36,7 @@ y(t) = g(t) + s(t) + h(t) + 𝝐t
 This formulation is similar to a `generalized additive model (GAM)`, a class of regression models with potentially non-linear smoothers applied to the regressors, that has the advantage of being flexible, accurate, fast to implement, and interpretable parameters[^2]. In this case, Prophet has some advantages compared to other time series models, such as its capacity to handle seasonal variations, missing data, and outliers.  
 This model is an open-source tool provided by `Facebook Inc.` through the prophet package, available in `Python` and `R`
 
-## [Implementation Prophet Forecasting model](notebooks/Model/Prophet model Report.ipynb)
+## ![Implementation Prophet Forecasting model](notebooks/Model/Prophet model Report.ipynb)
 The modeling process can be divided into three main steps: data preparation, hyperparameter tuning and fitting of the model, and cross-validation and forecasting.  
 In this case, the model was implemented using the aggregated daily energy consumption data and the national UK holidays data. For the hyperparameter tuning and the `cross-validation`, the dataset was automatically split into training and testing periods on a rolling basis, according to a defined train period and a forecasting horizon, which were established as 540 and 180 days. For that reason, the data used to perform the forecasting later will be included into the training set, since random samples cannot be used in time series.
 Fitting the model is a very straightforward process but some key hyperparameters were adjusted to optimize the model performance. We perform an iterative process to select which of all the hyperparameters were most likely to be tuned by comparing the `MAPE` obtained by adjusting each individual hyperparameter  with a baseline MAPE with a standard fitted model. The most relevant hyperparameters were the type of trend, its flexibility or the seasonality and its strength, so its values were optimized using the grid search method.
@@ -75,11 +75,11 @@ information was summarized just to have a general overview and take to most of t
 of the model, to clear the bigger picture, and to stay tuned with the changes. It was also summed up
 to prevent the model to be over fitted.
 
-# [Final Report](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/final%20Reports/Analysis%20of%20residential%20energy%20consumption%20in%20London.pdf)
+# ![Final Report](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/final%20Reports/Analysis%20of%20residential%20energy%20consumption%20in%20London.pdf)
 
-The final report presented in the project was the [following link](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/final%20Reports/Analysis%20of%20residential%20energy%20consumption%20in%20London.pdf)
+The final report presented in the project was the ![following link](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/final%20Reports/Analysis%20of%20residential%20energy%20consumption%20in%20London.pdf)
 
-## [Dashboard](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/final%20Reports/Dashboard%20User%20Guide.pdf)
+## ![Dashboard](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/final%20Reports/Dashboard%20User%20Guide.pdf)
 The final presentation involved the creation of a Dashboard using Dash
 ![image](https://github.com/user-attachments/assets/ed6967cb-71ac-4475-8b63-7291a7984ef1)
 ### Features
