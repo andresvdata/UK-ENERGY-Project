@@ -11,6 +11,25 @@ Energy is one of the main topics on the <b>UN agenda</b> for the following years
 
 This information is useful to determine the current residential sector energy consumption charac- teristics. For UK Power Networks and the UK Government, it is important to know in detail the patterns of energy consumption in London's households, to create strategies to ease the transition to clean energy sources. ` This project is focused on providing relevant information to the public and private entities, such as the government of the United Kingdom, London authorities, energy suppliers, network operators, researchers, and in general players of the energy market about energy consumption patterns and demand trends of London households to allow them to make better decisions in eciently planning and operation of the electricity distribution networks, improving customer service and adopting of low carbon strategies. Last but not least, this study can be used as a guide for other countries that want to advance in the implementation of alternative energies.
 
+# Architecture
+
+- Data is collected into a PostgreSQL Amazon RDS (Relational Database Service).
+- The database simplifies setup, operation, and scaling for application use.
+- Data preparation involved:
+  - Selection, cleaning, and integration using Python libraries.
+  - Preparing data for graphing and feeding the profit forecasting model.
+- Deployment stage:
+  - Utilized Dash library in Python to create the dashboard.
+  - The dashboard was uploaded into a Docker container.
+  - Deployed to Amazon Elastic Container Registry (ECR).
+  - Connected to Amazon Elastic Container Service (ECS) to manage dashboard publishing.
+- A cluster was created to host the dashboard on an Amazon server.
+- Users can access the dashboard via an IP address and port.
+
+![image](https://github.com/user-attachments/assets/5eda14cd-9153-4028-a3ad-28c9708d76de)
+
+
+
 # Datafolio
 ![image](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/final%20Reports/SmartEnerx%20Datafolio%20-%20Team%2094.svg)
 
@@ -75,13 +94,15 @@ information was summarized just to have a general overview and take to most of t
 of the model, to clear the bigger picture, and to stay tuned with the changes. It was also summed up
 to prevent the model to be over fitted.
 
-# [Final Report](final Reports/Analysis of residential energy consumption in London.pdf)
+# [Final Report](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/final%20Reports/Analysis%20of%20residential%20energy%20consumption%20in%20London.pdf)
 
 The final report presented in the project was the ![following link](final Reports/Analysis of residential energy consumption in London.pdf)
 
-## ![Dashboard](final Reports/Dashboard User Guide.pdf)
+## [Dashboard](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/final%20Reports/Dashboard%20User%20Guide.pdf)
 The final presentation involved the creation of a Dashboard using Dash
 ![image](https://github.com/user-attachments/assets/ed6967cb-71ac-4475-8b63-7291a7984ef1)
+![Dashboard](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/Dashboard%20Explanation.gif?raw=true)
+
 ### Features
 * Interactive Visualizations: Users can interact with various charts and graphs to gain insights into energy data.
 * Data Exploration: Users can filter and explore different datasets related to energy consumption, generation, and emissions.
