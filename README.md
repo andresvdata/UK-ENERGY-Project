@@ -77,7 +77,7 @@ to prevent the model to be over fitted.
 
 # [Final Report](final Reports/Analysis of residential energy consumption in London.pdf)
 
-The final report presented in the project was the ![following link](https://github.com/andresvdata/UK-ENERGY-Project/blob/main/final%20Reports/Analysis%20of%20residential%20energy%20consumption%20in%20London.pdf)
+The final report presented in the project was the ![following link](final Reports/Analysis of residential energy consumption in London.pdf)
 
 ## ![Dashboard](final Reports/Dashboard User Guide.pdf)
 The final presentation involved the creation of a Dashboard using Dash
